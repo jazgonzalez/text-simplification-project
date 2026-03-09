@@ -1,6 +1,6 @@
 # Text Simplification Project
 
-This repository contains the development and evaluation of various Natural Language Processing (NLP) models focused on Text Simplification. The project was developed as part of the Text Mining course during the 5th semester.
+This repository contains the development and evaluation of various Natural Language Processing (NLP) models focused on Text Simplification
 
 ## Overview
 
@@ -11,7 +11,6 @@ The goal of this project is to transform complex sentences into simpler, more re
 * **T5 Models**: Implementation and training of T5-base and T5-small models.
 * **BART Models**: Large-scale simplification using BART-large architectures.
 * **Evaluation**: Scripts for measuring performance using datasets from HuggingFace.
-* **Documentation**: Includes the final project report and presentation slides in PDF format.
 
 ## Tech Stack
 
@@ -24,5 +23,5 @@ The goal of this project is to transform complex sentences into simpler, more re
 1. Clone the repository:
    `git clone https://github.com/jazgonzalez/text-simplification-project.git`
 2. Install dependencies:
-   `pip install pandas transformers torch`
+   `pip install -r requirements.txt`
 3. Run the Jupyter Notebooks to see the training and inference logs.
